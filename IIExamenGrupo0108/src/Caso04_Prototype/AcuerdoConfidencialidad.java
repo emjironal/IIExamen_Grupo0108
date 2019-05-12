@@ -3,20 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package iiexamengrupo01mm;
+package Caso04_Prototype;
 
 /**
  *
  * @author eduardo
  */
-public class IIExamenGrupo01MM {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args)
+public class AcuerdoConfidencialidad implements Documento
+{
+    @Override
+    public Documento clone()
     {
-        // TODO code application logic here
+        return new AcuerdoConfidencialidad();
     }
-    
 }
