@@ -33,7 +33,7 @@ public class DBaseMonitor extends javax.swing.JFrame implements Monitor
             contValor = 0;
             for(String valor : fila)
             {
-                list[contFila][contValor] = (Object) fila;
+                list[contFila][contValor] = (Object) valor;
                 contValor++;
             }
             contFila++;
